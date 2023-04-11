@@ -1,0 +1,30 @@
+ *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+ }
+/* INIZIO UTILITIES */
+.container{
+    width: 60%;
+    margin: 0 auto;
+    
+    
+    
+}
+.header{
+    text-align: center;
+}
+
+
+
+/* FINE UTILITIES */
+
+h1{
+    color: rgba(227, 38, 109,125);
+    padding-top: 25px;
+    padding-bottom: 35px;
+    font-family: 'Fredoka', sans-serif;
+}
+.subtitle{
+    
+}
