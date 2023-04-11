@@ -14,7 +14,7 @@
 
 .header{
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 2.5rem;
 }
 
 h1{
@@ -37,12 +37,17 @@ h1{
     width: calc(100%/3 - 90);
     width: 100%; 
 }
+.Second-row{
+    width: calc(100%/3 - 90);
+    width: 100%; 
+}
+
 /* FINE CLASSI ROW */
 
 /* INIZIO CLASSI SECTION */
 section{
     font-size: 12px;
-    background-color: rgb(1, 1, 32);
+    background-color: rgb(15, 14, 23, 17);
     color: white;
     width: 30%;
     float: left;
@@ -65,6 +70,7 @@ section p{
 }
 section p:last-child{
     padding-bottom: 8px;
+    color: rgb(106, 203, 223, 154);
 }
 img{
     float: left;
