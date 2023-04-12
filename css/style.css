@@ -54,7 +54,7 @@ section{
     width: 30%;
     float: left;
     margin-bottom: 40px;
-    box-shadow:0px -1px 10px rgba(0,0,0,0.5), 0px 1px 10px rgba(0,0,0,0.5);    
+    box-shadow:0px -1px 10px rgba(0,0,0,0.3), 0px 1px 10px rgba(0,0,0,0.3);    
 }
 
 img{
