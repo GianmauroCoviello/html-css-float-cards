@@ -37,24 +37,23 @@ h1{
 }
 .First-row{
     width: 100%; 
-    width: calc(100%/3 - 60);
+    
 }
 .Second-row{
-    width: calc(100%/3 - 60);
     width: 100%; 
 }
 
 /* FINE CLASSI ROW */
 
-/* INIZIO CLASSI DELLE SECTION */
-section{
+/* INIZIO CLASSI DELLE COL */
+.col{
     font-size: 12px;
     background-color: rgb(15, 14, 23, 17);
     color: white;
-    width: 30%;
     float: left;
     margin-bottom: 40px;
-    box-shadow:0px -1px 10px rgba(0,0,0,0.3), 0px 1px 10px rgba(0,0,0,0.3);    
+    width: calc(100% / 3 - 30px);
+    box-shadow:0px 1px 10px rgba(0,0,0,0.8)   
 }
 
 img{
@@ -64,11 +63,11 @@ img{
     margin-right: 10px;
 }
 
-section:nth-of-type(1){
-    margin-left: 18px;
+.col:nth-of-type(1){
+    margin-left: 15px;
 }
 
-section:nth-of-type(2){
+.col:nth-of-type(2){
     margin-left: 30px;
     margin-right: 30px;
 }
@@ -79,16 +78,16 @@ h3{
     font-family: 'Fredoka', sans-serif;
    
 }
-section p{
+.col p{
     padding-top: 8px;
     font-size: 12px;
     font-family: 'Fredoka', sans-serif;
 }
-section p:last-child{
+.col p:last-child{
     padding-bottom: 8px;
     color: rgb(106, 203, 223, 154);
     font-family: 'Fredoka', sans-serif;
 }
 
-/* FINE CLASSI DELLE SECTION */
+/* FINE CLASSI DELLE COL */
 
